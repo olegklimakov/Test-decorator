@@ -1,0 +1,17 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc --p",
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
